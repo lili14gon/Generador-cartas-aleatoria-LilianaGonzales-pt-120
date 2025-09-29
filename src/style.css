@@ -1,5 +1,17 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(75, 225, 37);
+}
+#imagenSimboloI{
+    transform: rotate(180deg);
+    font-size: 6rem;
+}
+#imagenSimboloS{
+    font-size: 6rem;
+}
+#valorCentro{
+    font-size: 10rem;
+    font-weight: 300;
+    font-family: auto;
 }
