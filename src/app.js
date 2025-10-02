@@ -42,3 +42,6 @@ const action =(e) =>{
 
 window.onload = function() {action()}
 btnActualizar.addEventListener('click',action )
+setInterval(() => {
+  action();
+}, 10000);
